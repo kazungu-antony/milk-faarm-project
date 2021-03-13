@@ -153,6 +153,10 @@ hr{
     padding: 20px;
 }
 
+.milk-production, .leapyear-income{
+    overflow: scroll;
+}
+
 
 .leapyear-count, .change-records{
     padding-left: 30px;
@@ -195,6 +199,11 @@ hr{
 
 .change-records{
     padding-bottom: 60px;
+}
+
+footer p{
+    text-align: center;
+    margin-bottom: 30px;
 }
 
 
