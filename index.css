@@ -150,7 +150,13 @@ hr{
 }
 
 .detailed-rep{
+    padding: 20px;
+}
 
+
+.leapyear-count, .change-records{
+    padding-left: 30px;
+    padding-bottom: 10px;
 }
 
 
@@ -165,26 +171,30 @@ hr{
 }
 
 .shade-letters{
-    background-color: hotpink;
     display: flex;
     flex-direction: row;
     margin-bottom: 10px;
 }
 
-
-
 .letters{
     display: flex;
     justify-content: center;
     background-color: rgb(79, 228, 79);
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 30px;
     padding: 20px;
     margin: 5px;
-    margin-right: 15px;
+   
     border-radius: 50%;
 }
 
 .shade-text{
     padding: 20px;
+}
+
+.change-records{
+    padding-bottom: 60px;
 }
 
 
