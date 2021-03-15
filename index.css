@@ -175,6 +175,12 @@ hr{
     padding: 20px;
 }
 
+.detailed-rep p{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
 .milk-production, .leapyear-income{
     overflow: scroll;
 }
