@@ -20,9 +20,9 @@ function totalProduction(){
     document.getElementById("milkdisplay").innerHTML = totalMilk + " Liters " ;
 
     document.getElementById("display-shade-a").innerHTML = "Shade A is "+ shadeA + " Liters " ;
-    document.getElementById("display-shade-b").innerHTML = "Shade A is "+ shadeB + " Liters " ;
-    document.getElementById("display-shade-c").innerHTML = "Shade A is "+ shadeC + " Liters " ;
-    document.getElementById("display-shade-d").innerHTML = "Shade A is "+ shadeD + " Liters " ;
+    document.getElementById("display-shade-b").innerHTML = "Shade B is "+ shadeB + " Liters " ;
+    document.getElementById("display-shade-c").innerHTML = "Shade C is "+ shadeC + " Liters " ;
+    document.getElementById("display-shade-d").innerHTML = "Shade D is "+ shadeD + " Liters " ;
 
 }
 
@@ -63,10 +63,6 @@ function incomeOverTime(){
 
 /* Function for possible leap year income */
 
-
-function incomeDifference(){
-    
-}
 
 
 
