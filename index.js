@@ -38,8 +38,8 @@ function incomeOverTime(){
     var shadeB = parseInt(document.getElementById("totalmilkB").value);
     var shadeC = parseInt(document.getElementById("totalmilkC").value);
     var shadeD = parseInt(document.getElementById("totalmilkD").value);
-    var rate = parseInt(document.getElementById("milkrate").value);    
-    
+    var rate = parseInt(document.getElementById("milkrate").value);
+
     var totalMilk = shadeA + shadeB + shadeC + shadeD;
 
 
