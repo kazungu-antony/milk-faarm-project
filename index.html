@@ -24,40 +24,34 @@
                 <div class="farm-input">
                     <h2>Farm Input</h2>
 
-                    <form action="">Number of Cows
-
-                        <div class="form-div">
-                            <label for="">
-                                <input type="text" placeholder="Cows per Shade">
-                            </label>
-                        </div>
+                    <form onsubmit="event.preventDefault">
 
                         <div class="shades-farm">
 
                             <div class="form-div">
                                 <label> <span>A</span>
-                                    <input type="text" placeholder="Milk from shade A">
+                                    <input type="number" placeholder="Milk from shade A" name="totalmilkA" id="totalmilkA">
                                 </label>
                             </div>
                             
 
                             <div class="form-div">
                                 <label> B
-                                    <input type="text" placeholder="Milk from Shade B">
+                                    <input type="number" placeholder="Milk from Shade B" name="totalmilkB" id="totalmilkB">
                                 </label>
                             </div>
         
                             
                             <div class="form-div">
                                 <label> C
-                                    <input type="text" placeholder="Milk from Shade C"> 
+                                    <input type="number" placeholder="Milk from Shade C" name="totalmilkC" id="totalmilkC"> 
                                 </label>
                             </div>
         
 
                             <div class="form-div">
                                 <label> D
-                                    <input type="text" placeholder="Milk from Shade D"> 
+                                    <input type="number" placeholder="Milk from Shade D" name="totalmilkD" id="totalmilkD"> 
                                 </label>
                             </div>
 
@@ -65,7 +59,7 @@
                         </div>
 
                         
-                        <button>Submit</button>
+                        <button type="button" id="farm-button">Submit</button>
                     </form>
 
 
@@ -78,11 +72,11 @@
 
                     <h2>Business Input</h2>
 
-                    <div class="business-records">
-                        <p>Number of cows will be displayed here</p>
-                        <p>Liters of milk produced will display here</p>
-                        <p>Current selling rate will display here</p>
-                        <p></p>
+                    <div class="daily-milk-production">
+                       <h3>Total Milk production</h3>
+                       <p id="milkdisplay">
+
+                       </p>
                     </div>
 
                     <hr>
@@ -93,20 +87,22 @@
                         <form class="biz-input">
                             <div class="form-div">
                                 <lable class="rate-lable"> Rate
-                                    <input type="text" placeholder="Enter milk selling rate">
+                                    <input type="text" placeholder="Enter milk selling rate" name="milkrate" id="milkrate">
                                 </lable>
                             </div>
                             
                         </form>
 
-                        <button class="btn-rate">Update</button>
+                        <button class="btn-rate" id="rate-update">Update</button>
                     </div>
 
                     <hr>
 
                     <div class="daily-income">
                         <h2>Expected Daily Income</h2>
-                        <p>Your expected daily income will be displayed here</p>
+                        <p id="display-2">
+                            
+                        </p>
                     </div>
 
                 </div>
@@ -122,17 +118,23 @@
                 <div class="general-report">
                     <div class="general-income">
                         <h2>Weekly income</h2>
-                        <p>Your weekly income will Show up here</p>
+                        <p id="display-3">
+
+                        </p>
                     </div>
 
                     <div class="general-income with-border">
                         <h2>Monthly Income</h2>
-                        <p>Your monthly income will Show up here</p>
+                        <p id="display-4">
+
+                        </p>
                     </div>
 
                     <div class="general-income">
                         <h2>Yearly Income</h2>
-                        <p>Your yearly income will show up here</p>
+                        <p id="display-5">
+
+                        </p>
                     </div>
 
                 </div>
@@ -143,41 +145,50 @@
                     <div class="milk-production detailed-rep">
                         <h2>Milk production / Shade</h2>
 
-                        <div class="shade-letters">
-                            <p class="letters">A</p>
-                            <p class="shade-text">Milk production in Shade A will Show up here</p>
-                        </div>
+                        <table>
+                            <tr>
+                                <th>Statements</th>
+                            </tr>
 
-                        <div class="shade-letters">
-                            <p class="letters">B</p>
-                            <p class="shade-text">Milk production in Shade A will Show up here</p>
-                        </div>
-
-                        <div class="shade-letters">
-                            <p class="letters">C</p>
-                            <p class="shade-text">Milk production in Shade A will Show up here</p>
-                        </div>
-
-                        <div class="shade-letters">
-                            <p class="letters">D</p>
-                            <p class="shade-text">Milk production in Shade A will Show up here</p>
-                        </div>
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </table>
 
                     </div>
 
                     <!--- Leap year income report for every month -->
                     <div class="leapyear-income detailed-rep with-border">
                         <h2>Leap year Income</h2>
-                        <p class="leapyear-count">Your leap year approximate income will show up here</p>
+                        <table>
+                            <tr>
+                                <th>Statements</th>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </table>
                     </div>
 
                     <!--- Milk selling rate change Report --->
                     <div class="rate-change-report detailed-rep">
                         <h2>Comparison from last income rate</h2>
                         <p class="change-records">Your selling rate will show up here</p>
-                        <p class="change-records">Your last income will show up here</p>
-                        <p class="change-records">Your Current income will show up here</p>
-                        <p class="change-records">The difference will show up here</p>
+                        
+                        <table>
+                            <tr>
+                                <th>Previous income</th>
+                                <th>Current income</th>
+                                <th>Difference</th>
+                            </tr>
+
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </table>
                     </div>
 
                 </div>
@@ -191,6 +202,7 @@
        </div>
         
         
-        <script src="index.js" async defer></script>
+        <script src="index.js">
+        </script>
     </body>
 </html>
