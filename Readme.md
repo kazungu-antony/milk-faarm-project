@@ -24,7 +24,7 @@ $ git clone https://github.com/kazungu-antony/milk-faarm-project
 3. Javascript
 4. Git
 ### Live Site
-View [live](https://kazungu-antony.github.io/Anitas_kitchen/)
+View [live](https://kazungu-antony.github.io/milk-faarm-project/)
 ## Author
 Antony Kazungu
 ### Licence
