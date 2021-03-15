@@ -40,7 +40,6 @@ function incomeOverTime(){
         var monthlyIncome = month * rate;
         var yearlyIncome = year * rate;
 
-
     document.getElementById("display-2").innerHTML = dailyIncome + " KSH " ;
     document.getElementById("display-3").innerHTML = monthlyIncome + " KSH " ;
     document.getElementById("display-4").innerHTML = weeklyIncome + " KSH " ;
