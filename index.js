@@ -61,6 +61,12 @@ function incomeOverTime(){
 
 }
 
+/* Function for possible leap year income */
+
+
+function incomeDifference(){
+    
+}
 
 
 
