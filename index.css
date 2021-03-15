@@ -104,9 +104,15 @@ button:hover{
     background-color: rgb(255, 186, 57);
 }
 
-.business-records p{
+.bsr-table{
     margin-left: 60px;
-    padding: 5px;
+    margin-bottom: 20px;
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px
 }
 
 hr{
@@ -117,6 +123,17 @@ hr{
 .daily-income p{
     font-size: 20px;
     text-align: center;
+    font-weight: bold;
+}
+
+.daily-milk-production{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.daily-milk-production p{
+    padding: 10px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -143,6 +160,11 @@ hr{
     margin: 20px;
 }
 
+.general-income p{
+    text-align: center;
+    font-weight: bold;
+}
+
 .with-border{
     border-right: 2px solid grey;
     border-left: 2px solid grey;
@@ -161,6 +183,10 @@ hr{
 .leapyear-count, .change-records{
     padding-left: 30px;
     padding-bottom: 10px;
+}
+
+.detailed-report table{
+    margin-left: 30px;
 }
 
 
